@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}E-Tech Hub{% endblock title %}</title>
+    {% block script_require %}{% endblock script_require %}
+    {% block style %}{% endblock style %}
+
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    {% block content %}{% endblock content %}
+    {% block script %}{% endblock script %}
+</body>
+</html>
